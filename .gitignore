@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Runtime temporary files
+runtime/*.tmp
+
+# Development backups
+*-backup.py
+*-before-*.py
+*-before-*.txt
+*-before-*.yml
+*-broken-*.py
+
+# Spark local files
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Environment files
+.env
+.env.*
+
+# Build/cache
+dist/
+build/
+.cache/
